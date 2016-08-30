@@ -1,5 +1,5 @@
 capture program drop dzhwchana
-program define dzhwchana 
+program define chana 
 	version 12.0
 	syntax [varlist], [newname oldname]	
 	
