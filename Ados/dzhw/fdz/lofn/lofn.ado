@@ -1,4 +1,4 @@
-program lfon, rclass
+﻿program lfon, rclass
 	version 8
 
 	if `"`0'"' == "" {

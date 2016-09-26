@@ -1,4 +1,4 @@
-{smcl}
+﻿{smcl}
 {* *! version 0.0.1  07.04.2016}
 {viewerdialog lofn "dialog chana"}{...}
 {vieweralsosee "[DZHW] "Verlinkung zum Manual"}{...}
@@ -26,7 +26,7 @@
 
 
 {pstd}
-{cmd:lofn} Sucht in char[dzhwnewvarname] nach angegebenen Ausdr�cken
+{cmd:lofn} Sucht in char[dzhwnewvarname] nach angegebenen Ausdrücken
 
 
 

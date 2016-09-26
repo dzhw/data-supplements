@@ -1,9 +1,9 @@
-capture program drop dzhwchana
+ï»¿capture program drop dzhwchana
 program define chana 
 	version 12.0
 	syntax [varlist], [newname oldname]	
 	
-	***Fehler überprüfen
+	***Fehler Ã¼berprÃ¼fen
 	*Anzahl der Optionen
 	if "`newname'" == "" & "`oldname'" == "" {
 		di as error "Mindestens eine Option angeben"
@@ -23,7 +23,7 @@ program define chana
 
 	***Variablenbennenung
 	foreach var of varlist `varlist' {
-		*Für Option newname
+		*FÃ¼r Option newname
 		if `"`newname'"' == "newname" {
 			local newvarname: char `var'[dzhwnewvarname]
 			if `"`newvarname'"' == "" {
@@ -34,7 +34,7 @@ program define chana
 			}
 				
 		}
-		*Für Option oldname
+		*FÃ¼r Option oldname
 		if `"`oldname'"' == "oldname" {
 			local oldvarname: char `var'[dzhwoldvarname]
 			if `"`oldvarname'"' == "" {

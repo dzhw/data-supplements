@@ -1,4 +1,4 @@
-{smcl}
+ï»¿{smcl}
 {* *! version 0.0.1  07.04.2016}
 {viewerdialog chana "dialog chana"}{...}
 {vieweralsosee "[DZHW] "Verlinkung zum Manual"}{...}
@@ -7,7 +7,7 @@
 {title:Title}
 
 {p2colset 5 20 22 2}{...}
-{p2col :chana {hline 2}}Ändert Variablennamen für DZHW-Datensätze
+{p2col :chana {hline 2}}Ã„ndert Variablennamen fÃ¼r DZHW-DatensÃ¤tze
 {p_end}
 {p2colreset}{...}
 
@@ -24,8 +24,8 @@
 {synopthdr}
 {synoptline}
 {syntab:Option}
-{synopt :{opt new:name}} nutzt neuen DZHW-Variablennammen für Variablen{p_end}
-{synopt :{opt old:name}} nutzt alte DZHW-Variablennammen für Variablen{p_end}
+{synopt :{opt new:name}} nutzt neuen DZHW-Variablennammen fÃ¼r Variablen{p_end}
+{synopt :{opt old:name}} nutzt alte DZHW-Variablennammen fÃ¼r Variablen{p_end}
 {synoptline}
 {p2colreset}{...}
 {p 4 6 2}
@@ -36,8 +36,8 @@
 
 
 {pstd}
-{cmd:chana} ändert den Variablenname der {varlist} in die neuen (nach der Logik des FDZ gesetzten) 
-oder in alten (nach der Logik der Primärforschungprojekte gesetzten) Variablennamen um. Hierfür müssen
+{cmd:chana} Ã¤ndert den Variablenname der {varlist} in die neuen (nach der Logik des FDZ gesetzten) 
+oder in alten (nach der Logik der PrimÃ¤rforschungprojekte gesetzten) Variablennamen um. HierfÃ¼r mÃ¼ssen
 die {help char} [dzhwnewvarname| dzhwoldvarname] der Variablen gesetzt sein und der Datensatz muss als 
 DZHW-Datensatz getagt (_dta[dzhwdataset]== true) sein.
 
